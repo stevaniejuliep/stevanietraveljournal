@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Journal</title>
+    <style>
+header {
+  background-color: rgb(206, 35, 212);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header a {
+  font-size: 50px;
+  color:crimson;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: crimson;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+header p {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+ .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+  }
+
+  .card {
+    background-color: beige;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+
+  .card h2 {
+    margin: 15px 0 20px;
+  }
+
+  .card a {
+    text-decoration: none;
+    color: #0a3a91;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  footer {
+    background-color: #114b9c;
+    color: white;
+    padding: 15px 0;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+    <header>
+<h1>My Travel Journal 🌏</h1>
+<p>This is my travel page around the world!</p>
+    </header>
+
+    <div class="container">
+  <div class="card">
+    <img src="japan pict.jpg" alt="Japan">
+    <h2><a href="japan.html">Japan</a></h2>
+  </div>
+
+  <div class="card">
+    <img src="Singapore pict.jpg" alt="Singapore">
+    <h2><a href="singapore.html">Singapore</a></h2>
+  </div>
+
+  <div class="card">
+    <img src="london pict.jpg" alt="London">
+    <h2><a href="london.html">London</a></h2>
+  </div>
+
+    <div class="card">
+    <img src="scotland pict.jpg" alt="Scotland">
+    <h2><a href="scotland.html">Scotland</a></h2>
+  </div>
+
+    <div class="card">
+    <img src="manchester pict.jpg" alt="Manchester">
+    <h2><a href="manchester.html">Manchester</a></h2>
+  </div>
+</div>
+
+</body>
+</html>
